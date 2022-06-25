@@ -1,4 +1,4 @@
-import { AsyncStorage } from 'react-native';
+import AsyncStorage from '@react-native-community/async-storage';
 import * as Keychain from 'react-native-keychain';
 import CryptoJSCore from 'crypto-js/core';
 import AES from 'crypto-js/aes';
@@ -6,7 +6,7 @@ import AES from 'crypto-js/aes';
 import uuidv4 from 'uuid/v4';
 
 let encryptionKey = null;
-export default ({ service = 'com.redux-persist-encrypted-async-storage' } = {}) => {
+export default ({ service = 'leuducquy.redux-persist-encrypted-async-storage' } = {}) => {
   const noop = () => null;
 
   const getEncryptionKey = async () => {
