@@ -37,4 +37,4 @@ OR
   createStorage({ service?: string }): Storage
 ```
 
-Service is the service key used to store the secure key in keychain/keystore using react-native-keychain. See react-native-keychain for more details. Default service value is: `com.redux-persist-encrypted-async-storage`
+Service is the service key used to store the secure key in keychain/keystore using react-native-keychain. See react-native-keychain for more details. Default service value is: `leuducquy.redux-persist-encrypted-async-storage`
