@@ -8,13 +8,13 @@ This project provides an AES encryption layer (using a randomly generated secure
 First install `react-native-keychain`. Then:
 
 ```
-  yarn add 'https://github.com/chaudhryjunaid/redux-persist-encrypted-async-storage.git#master'
+  yarn add 'https://github.com/leuducquy/redux-persist-encrypted-async-storage.git#master'
 ```
 
 OR
 
 ```
-  npm i 'https://github.com/chaudhryjunaid/redux-persist-encrypted-async-storage.git#master'
+  npm i 'https://github.com/leuducquy/redux-persist-encrypted-async-storage.git#master'
 ```
 
 ### Usage:
